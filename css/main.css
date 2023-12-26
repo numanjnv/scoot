@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: inline-block;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 1200px;
+}
+
+.header {
+  margin-top: 34px;
+}
+.header-img {
+  margin-right: 58px;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.header-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  width: 180px;
+  height: 53px;
+  flex-shrink: 0;
+  background: #FCB72B;
+  border: transparent;
+  margin-left: 511px;
+}
+.header-btn:hover {
+  background-color: white;
+  border: 3px solid #FCB72B;
+  color: #FCB72B;
+  text-align: center;
+  font-family: Space "Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-item a {
+  gap: 0 32px;
+  color: #939CAA;
+  font-family: Space "Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}/*# sourceMappingURL=main.css.map */
