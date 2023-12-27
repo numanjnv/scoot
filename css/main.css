@@ -92,6 +92,30 @@ body {
   line-height: 25px;
 }
 
+@media only screen and (max-width: 700px) {
+  .header-left-box {
+    width: 100%;
+    gap: 0;
+    align-items: center;
+  }
+  .header-img-link {
+    margin: 0 auto;
+  }
+  .header-img {
+    width: 75px;
+    height: 20px;
+  }
+  .header-icon {
+    order: -4;
+    display: block;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-button {
+    display: none;
+  }
+}
 .hero {
   background-image: url(../../assets/img/Bitmap.jpg);
   background-repeat: no-repeat;
