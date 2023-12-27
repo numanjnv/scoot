@@ -96,8 +96,8 @@ body {
   background-image: url(../../assets/img/Bitmap.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1440px;
-  height: 650px;
+  background-position: 50%;
+  height: 100vh;
 }
 .hero-box h1 {
   color: #FFF;
